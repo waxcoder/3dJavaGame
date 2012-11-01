@@ -18,6 +18,7 @@ public class Display extends Canvas implements Runnable {
 			return;
 		running = true;
 		thread = new Thread(this);
+           thread.start();
 
 	}
 
